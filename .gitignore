@@ -1,29 +1,11 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+.*
+!.gitignore
 
-# Precompiled Headers
-*.gch
-*.pch
+#Configurações do projeto para o usuário.
+*.pro.user
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+**Makefile
+**/build/
 
-# Fortran module files
-*.mod
-*.smod
+*Makefile
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
